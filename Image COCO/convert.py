@@ -3,7 +3,7 @@ data_Name = "cotra"
 vocab_file = "vocab_" + data_Name + ".pkl"
 
 word, vocab = cPickle.load(open('save/'+vocab_file))
-print len(word)
+print len(word)∑
 input_file = 'save/generator_sample.txt'
 # input_file = 'save/coco_451.txt'
 output_file = 'speech/' + data_Name + '_' + input_file.split('_')[-1]
